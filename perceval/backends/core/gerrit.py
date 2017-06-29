@@ -285,7 +285,7 @@ class GerritClient():
     VERSION_REGEX = re.compile(r'gerrit version (\d+)\.(\d+).*')
     CMD_GERRIT = 'gerrit'
     CMD_VERSION = 'version'
-    PORT = '29418'
+    PORT = '22'
     MAX_RETRIES = 3  # max number of retries when a command fails
     RETRY_WAIT = 60  # number of seconds when retrying a ssh command
 
